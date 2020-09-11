@@ -1,19 +1,18 @@
 import React from 'react';
-import { Input, DefaultStyle } from "../components";
-import { action } from "@storybook/addon-actions";
+import { Embed, DefaultStyle } from "../components";
 
 export default {
-    title: 'Controls/Text Field'
+    title: 'Controls/Embed'
 }
 
 export const Default = () => <>
     <DefaultStyle dark={true} />
-    <Input onChange={action('change')} />
+    <Embed title="존경" />
 </>
 
 export const Light = () => <>
     <DefaultStyle />
-    <Input onChange={action('change')} />
+    <Embed title="존경" />
 </>
 
 Default.parameters = {

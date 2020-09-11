@@ -4,21 +4,21 @@ import { Button, Checkbox, DefaultStyle, Embed, Input, Select, Selectbox, Textar
 import './App.css';
 
 function App() {
-    const [dark, setDark] = React.useState(false)
+    const [dark, setDark] = React.useState(true)
 
     return (
         <div className="App">
             <DefaultStyle dark={dark} />
             <h1>Discord Components</h1>
             <div>
-                <Checkbox checked={dark} onChange={() => setDark(!dark)} />
-                <span>Theme: {dark ? 'Light' : 'Dark'}</span>
+                <Checkbox checked={!dark} onChange={() => setDark(!dark)} />
+                <span>Theme: {dark ? 'Dark' : 'Light'}</span>
             </div>
             <div id="buttons">
                 <h2>Button</h2>
                 <Button>Button</Button>
                 <Button color='red'>Red Button</Button>
-                <Button color='red' hover={true}>Red Btn2</Button>
+                <Button color='red' hover={true}>Red Button2</Button>
             </div>
             <div>
                 <h2>Input</h2>
