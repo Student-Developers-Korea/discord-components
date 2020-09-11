@@ -8,7 +8,7 @@ const InputContainer = styled.input`
     background-color: var(--deprecated-text-input-bg);
     border: 1px solid var(--deprecated-text-input-border);
     border-radius: 3px;
-    color: var(--text-normal);
+    color: var(--input-color);
     -webkit-transition: border-color .2s ease-in-out;
     -moz-transition: border-color .2s ease-in-out;
     transition: border-color .2s ease-in-out;

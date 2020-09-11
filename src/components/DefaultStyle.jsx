@@ -4,6 +4,8 @@ import { createGlobalStyle, css } from 'styled-components'
 const Default = createGlobalStyle`
     ${props => !props.dark ? css`
     :root {
+        --input-color: #2e3338;
+
         --header-primary: #fff;
         --header-secondary: #b9bbbe;
         --text-normal: #dcddde;
@@ -52,7 +54,7 @@ const Default = createGlobalStyle`
         --deprecated-store-bg: #36393f;
         --deprecated-quickswitcher-input-background: #72767d;
         --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-        --deprecated-text-input-bg: rgba(0,0,0,0.1);
+        --deprecated-text-input-bg: #e3e5e8;
         --deprecated-text-input-border: rgba(0,0,0,0.3);
         --deprecated-text-input-border-hover: #040405;
         --deprecated-text-input-border-disabled: #202225;
@@ -60,6 +62,8 @@ const Default = createGlobalStyle`
     }
     ` : css`
     :root {
+        --input-color: #dcddde;
+    
         --header-primary: #060607;
         --header-secondary: #4f5660;
         --text-normal: #2e3338;
@@ -108,7 +112,7 @@ const Default = createGlobalStyle`
         --deprecated-store-bg: #f8f9f9;
         --deprecated-quickswitcher-input-background: #fff;
         --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
-        --deprecated-text-input-bg: rgba(79,84,92,0.02);
+        --deprecated-text-input-bg: #36393f;
         --deprecated-text-input-border: rgba(79,84,92,0.3);
         --deprecated-text-input-border-hover: #b9bbbe;
         --deprecated-text-input-border-disabled: #dcddde;
