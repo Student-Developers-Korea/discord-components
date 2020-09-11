@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Checkbox, DefaultStyle, Embed, Input, Textarea, Select } from './components';
+import { Button, Checkbox, DefaultStyle, Embed, Input, Select, Selectbox, Textarea } from './components';
 
 import './App.css';
 
@@ -70,6 +70,10 @@ function App() {
                         { name: '필드', value: '내용', inline: true }
                     ]}
                 />
+            </div>
+            <div>
+                <h2>Selectbox (Beta)</h2>
+                <Selectbox />
             </div>
         </div>
     );
