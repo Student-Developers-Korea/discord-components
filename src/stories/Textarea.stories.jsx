@@ -1,19 +1,19 @@
 import React from 'react';
-import { Input, DefaultStyle } from "../components";
+import { Textarea, DefaultStyle } from "../components";
 import { action } from "@storybook/addon-actions";
 
 export default {
-    title: 'Controls/Text Field'
+    title: 'Controls/Textarea'
 }
 
 export const Default = () => <>
     <DefaultStyle dark={true} />
-    <Input onChange={action('change')} />
+    <Textarea onChange={action('change')} />
 </>
 
 export const Light = () => <>
     <DefaultStyle />
-    <Input onChange={action('change')} />
+    <Textarea onChange={action('change')} />
 </>
 
 Default.parameters = {

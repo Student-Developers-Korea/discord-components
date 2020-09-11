@@ -21,23 +21,8 @@ export const Default = () => <>
     </ButtonSpacer>
 </>
 
-export const Light = () => <>
-    <DefaultStyle />
-    <ButtonSpacer>
-        <Button>Button</Button>
-        <Button color="red">Red Button</Button>
-        <Button color="red" hover={true}>Red Button2</Button>
-    </ButtonSpacer>
-</>
-
 Default.parameters = {
     backgrounds: {
         default: 'dark'
-    }
-}
-
-Light.parameters = {
-    backgrounds: {
-        default: 'light'
     }
 }
