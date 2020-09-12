@@ -63,11 +63,13 @@ function App() {
                         text: "푸터"
                     }}
                     fields={[
-                        { name: '필드', value: '내용', inline: true },
-                        { name: '필드', value: '내용', inline: true },
-                        { name: '필드', value: '내용', inline: true },
-                        { name: '필드', value: '내용' },
-                        { name: '필드', value: '내용', inline: true }
+                        { name: '필드1', value: '내용', inline: true },
+                        { name: '필드2', value: '내용', inline: true },
+                        { name: '필드3', value: '내용', inline: true },
+                        { name: '필드4', value: '내용', inline: true },
+                        { name: '필드5', value: '내용', inline: true },
+                        { name: '필드6', value: '내용' },
+                        { name: '필드7', value: '내용', inline: true }
                     ]}
                 />
             </div>

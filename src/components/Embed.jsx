@@ -212,7 +212,7 @@ function Embed({ color, author, title, description, fields, footer }) {
                         {fields && (
                             <EmbedFields>
                                 {fields.map((field, i) => (
-                                    <EmbedField className={`field${field.inline ? ' inline' : ''}`} key={i}>
+                                    <EmbedField key={i}>
                                         <EmbedFieldName>{field.name}</EmbedFieldName>
                                         <EmbedFieldValue>{field.value}</EmbedFieldValue>
                                     </EmbedField>
