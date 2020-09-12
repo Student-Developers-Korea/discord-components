@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/discord-components/static/css/main.29c3e102.chunk.css",
-    "main.js": "/discord-components/static/js/main.09ef040e.chunk.js",
-    "main.js.map": "/discord-components/static/js/main.09ef040e.chunk.js.map",
+    "main.js": "/discord-components/static/js/main.d7464a9d.chunk.js",
+    "main.js.map": "/discord-components/static/js/main.d7464a9d.chunk.js.map",
     "runtime-main.js": "/discord-components/static/js/runtime-main.553e5f37.js",
     "runtime-main.js.map": "/discord-components/static/js/runtime-main.553e5f37.js.map",
     "static/js/2.8fb1e412.chunk.js": "/discord-components/static/js/2.8fb1e412.chunk.js",
     "static/js/2.8fb1e412.chunk.js.map": "/discord-components/static/js/2.8fb1e412.chunk.js.map",
     "index.html": "/discord-components/index.html",
-    "precache-manifest.d2d67d6420c8aa8f88175e903a21e21e.js": "/discord-components/precache-manifest.d2d67d6420c8aa8f88175e903a21e21e.js",
+    "precache-manifest.5ed342c4012d8d53725fdb5c9fd6a20a.js": "/discord-components/precache-manifest.5ed342c4012d8d53725fdb5c9fd6a20a.js",
     "service-worker.js": "/discord-components/service-worker.js",
     "static/css/main.29c3e102.chunk.css.map": "/discord-components/static/css/main.29c3e102.chunk.css.map",
     "static/js/2.8fb1e412.chunk.js.LICENSE.txt": "/discord-components/static/js/2.8fb1e412.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.553e5f37.js",
     "static/js/2.8fb1e412.chunk.js",
     "static/css/main.29c3e102.chunk.css",
-    "static/js/main.09ef040e.chunk.js"
+    "static/js/main.d7464a9d.chunk.js"
   ]
 }
